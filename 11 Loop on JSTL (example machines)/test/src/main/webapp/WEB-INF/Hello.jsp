@@ -6,9 +6,9 @@
     </head>
     <body>
     	<h3>My Machines : </h3>
-    	<c:forEach items="${machines}" var="machine">
+    	<c:forEach items="${machines}" var="machine" varStatus="status">
     		<p>
-    			<c:out value="${machine}"></c:out>
+    			N°<c:out value="${status.count}"></c:out> : <c:out value="${machine}"></c:out>
     		</p>
     	</c:forEach>
     </body>
