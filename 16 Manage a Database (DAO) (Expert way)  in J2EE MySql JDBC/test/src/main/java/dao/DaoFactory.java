@@ -22,7 +22,7 @@ public class DaoFactory {
 
         }
         DaoFactory instance = new DaoFactory(
-                "jdbc:mysql://localhost:3306/javaee", "root", "Lapiraterie#8");
+                "jdbc:mysql://localhost:3306/javaee", "root", "");
         return instance;
     }
 
